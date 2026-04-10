@@ -7,14 +7,14 @@ interface LoadingScreenProps {
 
 export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
   const [progress, setProgress] = useState(0);
-  const [loadingText, setLoadingText] = useState("Initializing Research Systems...");
+  const [loadingText, setLoadingText] = useState("Initializing Analytics Engine...");
 
   const loadingMessages = [
-    "Initializing Research Systems...",
-    "Verifying GCP Compliance...",
-    "Syncing Trial Databases...",
-    "Preparing Portfolio Experience...",
-    "Calibration Complete..."
+    "Initializing Analytics Engine...",
+    "Querying Performance Data...",
+    "Optimizing Business Logic...",
+    "Preparing Portfolio Strategy...",
+    "Insights Ready..."
   ];
 
   useEffect(() => {
@@ -61,9 +61,9 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
           </div>
 
           <h1 className="text-4xl font-display font-bold gradient-text mb-4">
-            Spandana Devarasetty
+            SUMA KEERTHANA NEDUNURI
           </h1>
-          <p className="text-xl text-muted-foreground">Clinical Research Coordinator</p>
+          <p className="text-xl text-muted-foreground">Business Analyst</p>
         </motion.div>
 
         <div className="w-80 mb-4">
@@ -86,7 +86,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
         >
-          Crafting an immersive portfolio experience...
+          Synthesizing professional data insights...
         </motion.p>
       </div>
     </motion.div>

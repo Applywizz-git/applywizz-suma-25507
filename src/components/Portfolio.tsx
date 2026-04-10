@@ -35,7 +35,8 @@ export default function Portfolio() {
         // Preload critical images
         const imageUrls = [
           '/src/assets/profile-pic.jpeg',
-          '/src/assets/project-clinical-trial-dct.png',
+          '/src/assets/project-sales-dash.png',
+          '/src/assets/project-enterprise-kpi.png',
           '/src/assets/project-risk-monitoring.png',
         ];
 
